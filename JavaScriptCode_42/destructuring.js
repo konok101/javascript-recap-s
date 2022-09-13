@@ -21,7 +21,7 @@ const employs={
         watch:{
             color:'black',
             code:{
-                lan:33
+                lan:'sd'
             }
         }
     }
@@ -30,4 +30,5 @@ const employs={
 }
 
 const {language, lan}=employs?.specifiction?.watch?.code;
+ 
 console.log( lan);
